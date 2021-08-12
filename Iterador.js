@@ -8,7 +8,7 @@ function crearIterador (arreglo){
                 }
     }
 }
-var it= crearIterador(['yo', 'ya']);
+var it= crearIterador(['yo', 'ya', 'valí', 'verga']);
 console.log(it.next().value);
 console.log(it.next().value);
 console.log(it.next().done);
